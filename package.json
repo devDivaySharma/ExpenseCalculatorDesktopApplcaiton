@@ -1,0 +1,20 @@
+{
+  "name": "desktopappexpensecalculator",
+  "version": "1.0.0",
+  "description": "ExpenseCalculatorDesktopApplcaitonUsingNw.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw ./src/build",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devDivaySharma/ExpenseCalculatorDesktopApplcaiton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devDivaySharma/ExpenseCalculatorDesktopApplcaiton/issues"
+  },
+  "homepage": "https://github.com/devDivaySharma/ExpenseCalculatorDesktopApplcaiton#readme"
+}
